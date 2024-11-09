@@ -1,8 +1,15 @@
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: blue;
+  background-color: black;
   position: absolute;
-  top: 0;
-  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: 'Ingrid Darling', sans-serif;
+  color: white;
+  font-size: 5vw;
 }

@@ -6,7 +6,7 @@ import './home.css';
 function Home() {
   return (
     <div className='container'>
-      <p>TESTE HOME</p>  
+      <p className='title'>Love App</p>  
     </div>
   );
 }
