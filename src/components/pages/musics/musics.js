@@ -10,7 +10,7 @@ function Musics () {
 
   return (
     <div>
-      <h1>Home</h1>
+      <h1>Music</h1>
       <button 
         onClick={navigateToPoems} 
         style={{ backgroundColor: 'red', borderRadius: '0', color: 'white', padding: '10px 20px', border: 'none' }}
