@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/love-app/static/css/main.653ea716.css",
-    "main.js": "/love-app/static/js/main.906853e7.js",
+    "main.css": "/love-app/static/css/main.f2a7d292.css",
+    "main.js": "/love-app/static/js/main.bb6b0f52.js",
     "static/js/453.61fefbf9.chunk.js": "/love-app/static/js/453.61fefbf9.chunk.js",
     "index.html": "/love-app/index.html",
-    "main.653ea716.css.map": "/love-app/static/css/main.653ea716.css.map",
-    "main.906853e7.js.map": "/love-app/static/js/main.906853e7.js.map",
+    "main.f2a7d292.css.map": "/love-app/static/css/main.f2a7d292.css.map",
+    "main.bb6b0f52.js.map": "/love-app/static/js/main.bb6b0f52.js.map",
     "453.61fefbf9.chunk.js.map": "/love-app/static/js/453.61fefbf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.653ea716.css",
-    "static/js/main.906853e7.js"
+    "static/css/main.f2a7d292.css",
+    "static/js/main.bb6b0f52.js"
   ]
 }
