@@ -2,17 +2,44 @@
   width: 100vw;
   height: 100vh;
   background-color: black;
-  position: absolute;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.title {
-  font-family: 'Ingrid Darling', sans-serif;
-  color: #FF007A;
-  font-size: 22vw;
-  text-shadow: 0 1px 1px white;
-  position: absolute;
-  top: -6vh;
+.divider1 {
+  top: 18vh;
+}
+
+.divider2 {
+  top: 37vh;
+}
+
+.button-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Opcional: centraliza os botões horizontalmente */
+  gap: 26px; /* Espaçamento entre os botões */
+  margin-top: 150px;
+}
+
+.btn {
+  background-color: #FF007A;
+  width: 320px;
+  height: 60px;
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px white;
+}
+
+.btn-text {
+  font-family: Courgette, sans-serif;
+  color: white;
+  font-size: 30px;
+  margin-top: 20px;
 }
