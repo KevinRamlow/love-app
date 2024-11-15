@@ -9,29 +9,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 .title {
   font-family: 'Ingrid Darling', sans-serif;
   color: #FF007A;
-  font-size: 22vw;
+  font-size: 20vw;
   text-shadow: 0 1px 1px white;
-  position: absolute;
-  top: -6vh;
+  margin: 0;
 }
 
 .introduction {
   font-family: 'Satisfy', sans-serif;
   color: white;
   width: 85%;
-  position: absolute;
-  top: 20vh;
+  margin: 1rem 0;
+  text-align: center;
 }
 
 .divider {
   border-top: 1px solid #2C2C2C;
   width: 90%;
-  position: absolute;
+  margin: 1rem 0;
 }
 
 code {

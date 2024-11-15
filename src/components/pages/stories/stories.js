@@ -1,4 +1,4 @@
-function Histories () {
+function Stories () {
     return (
         <div>
             <h1>Historias</h1>
@@ -6,4 +6,4 @@ function Histories () {
     );
 }
 
-export default Histories;
+export default Stories;

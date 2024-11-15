@@ -1,45 +1,43 @@
 .container {
   width: 100vw;
   height: 100vh;
-  background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   padding: 20px;
   box-sizing: border-box;
 }
 
-.divider1 {
-  top: 18vh;
-}
-
-.divider2 {
-  top: 40vh;
+.divider {
+  width: 80%;
+  border-top: 1px solid #2C2C2C;
+  margin: 1rem 0;
 }
 
 .button-column {
   display: flex;
   flex-direction: column;
-  align-items: center; /* Opcional: centraliza os botões horizontalmente */
-  gap: 26px; /* Espaçamento entre os botões */
-  margin-top: 220px;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  width: 90%;
 }
 
 .btn {
   background-color: #FF007A;
-  width: 320px;
-  height: 60px;
-  padding: 10px;
+  width: min(320px, 90%); /* Aumentei o valor fixo para 400px e o percentual para 95% */
+  height: clamp(60px, 8vh, 60px);
+  padding: 0.625rem;
   font-size: 1rem;
   cursor: pointer;
-  border-radius: 10px;
-  box-shadow: 1px 1px 10px white;
+  border-radius: 0.625rem;
+  box-shadow: 0.0625rem 0.0625rem 0.625rem white;
 }
 
 .btn-text {
   font-family: Courgette, sans-serif;
   color: white;
-  font-size: 30px;
-  margin-top: 20px;
+  font-size: clamp(1.25rem, 3vw, 1.875rem);
+  margin-top: 0;
 }

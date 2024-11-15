@@ -1,7 +1,7 @@
 import Home from './components/pages/home/home';
 import Poems from './components/pages/poems/poems';
 import Musics from './components/pages/musics/musics';
-import Histories from './components/pages/histories/histories';
+import Stories from './components/pages/stories/stories';
 import Declaration from './components/pages/declaration/declaration';
 
 import React from 'react';
@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter basename="/love-app">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/histories" element={<Histories />} />
+        <Route path="/stories" element={<Stories />} />
         <Route path="/poems" element={<Poems />} />
         <Route path="/musics" element={<Musics />} />
         <Route path="/declaration" element={<Declaration />} />
