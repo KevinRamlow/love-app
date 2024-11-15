@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Introduction from '../../Introduction';
+import Introduction from '../../introduction/introduction';
 import './home.css';
 
 function Home() {

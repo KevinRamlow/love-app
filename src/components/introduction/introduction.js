@@ -1,5 +1,5 @@
 import React from 'react';
-import './Introduction.css'; // Atualize o caminho para o novo arquivo CSS
+import './introduction.css';
 
 function Introduction({ title, text }) {
   return (

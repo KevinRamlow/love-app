@@ -1,0 +1,22 @@
+.card {
+  background-size: cover;
+  background-position: center;
+  width: min(150px, 45vw);
+  height: min(150px, 45vw);
+  cursor: pointer;
+  border-radius: 0.625rem;
+  box-shadow: 0.0625rem 0.0625rem 0.625rem white;
+  transition: transform 0.3s;
+  border: none;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-text {
+  font-family: Courgette, sans-serif;
+  color: white;
+  font-size: clamp(1.25rem, 3vw, 1.875rem);
+  margin-top: 0;
+} 
