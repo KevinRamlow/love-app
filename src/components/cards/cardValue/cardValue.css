@@ -1,0 +1,25 @@
+.card-introduction {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-title {
+  font-family: 'Ingrid Darling', sans-serif;
+  color: #FF007A;
+  font-size: 10vw; /* Menor que o título do Introduction */
+  text-shadow: 0 1px 1px white;
+  margin: 0;
+}
+
+.card-divider {
+  border-top: 1px solid #2C2C2C;
+  width: 90%;
+  margin: 1rem 0;
+}
+
+.card-text {
+  font-family: 'Satisfy', sans-serif;
+  color: white;
+  width: 85%;
+  margin: 1rem 0;
+} 

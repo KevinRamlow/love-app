@@ -1,23 +1,25 @@
 import Introduction from "../../introduction/introduction";
 import CardTable from "../../cards/cardTable/cardTable";
+import { useNavigate } from 'react-router-dom';
 
 const images = {
   card1: require('../../../img/storieCard/image.png'),
   card2: require('../../../img/storieCard/image2.png'),
   card3: require('../../../img/storieCard/image3.png'),
-  card4: require('../../../img/storieCard/image4.png'),
   card4: require('../../../img/storieCard/image4.png')
 };
 
 function Stories() {
+  const navigate = useNavigate();
+
   const cards = [
     [
-      { image: images.card1, onClick: () => alert("Card 1 clicado") },
-      { image: images.card2, onClick: () => alert("Card 2 clicado") }
+      { image: images.card1, onClick: () => navigate('/card', { state: { title: 'Título do Card 1', text: 'Texto do Card 1' } }) },
+      { image: images.card2, onClick: () => navigate('/card', { state: { title: 'Título do Card 2', text: 'Texto do Card 2' } }) }
     ],
     [
-      { image: images.card3, onClick: () => alert("Card 3 clicado") },
-      { image: images.card4, onClick: () => alert("Card 4 clicado") }
+      { image: images.card3, onClick: () => navigate('/card', { state: { title: 'Título do Card 3', text: 'Texto do Card 3' } }) },
+      { image: images.card4, onClick: () => navigate('/card', { state: { title: 'Título do Card 4', text: 'Texto do Card 4' } }) }
     ]
   ];
 

@@ -11,4 +11,4 @@ function Card({ image, onClick }) {
   );
 }
 
-export default Card; 
+export default Card;

@@ -4,6 +4,7 @@ import Musics from './components/pages/musics/musics';
 import Stories from './components/pages/stories/stories';
 import Declaration from './components/pages/declaration/declaration';
 import FooterBar from './components/footbar/FooterBar';
+import CardValue from './components/cards/cardValue/cardValue';
 
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -18,6 +19,7 @@ function App() {
           <Route path="/poems" element={<Poems />} />
           <Route path="/musics" element={<Musics />} />
           <Route path="/declaration" element={<Declaration />} />
+          <Route path="/card" element={<CardValue />} />
         </Routes>
       </div>
       <FooterBar />
