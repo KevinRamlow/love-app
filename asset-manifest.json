@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/love-app/static/css/main.9d2a8b3c.css",
+    "main.css": "/love-app/static/css/main.810bca12.css",
     "main.js": "/love-app/static/js/main.f4ce8ee0.js",
     "reactPlayerYouTube.js": "/love-app/static/js/reactPlayerYouTube.42443316.chunk.js",
     "reactPlayerSoundCloud.js": "/love-app/static/js/reactPlayerSoundCloud.7661a6b0.chunk.js",
@@ -24,7 +24,7 @@
     "static/media/image4.png": "/love-app/static/media/image4.9b0236ceef11251e69ae.png",
     "static/media/minha-cura.png": "/love-app/static/media/minha-cura.a68546e76e7700c776d2.png",
     "index.html": "/love-app/index.html",
-    "main.9d2a8b3c.css.map": "/love-app/static/css/main.9d2a8b3c.css.map",
+    "main.810bca12.css.map": "/love-app/static/css/main.810bca12.css.map",
     "main.f4ce8ee0.js.map": "/love-app/static/js/main.f4ce8ee0.js.map",
     "reactPlayerYouTube.42443316.chunk.js.map": "/love-app/static/js/reactPlayerYouTube.42443316.chunk.js.map",
     "reactPlayerSoundCloud.7661a6b0.chunk.js.map": "/love-app/static/js/reactPlayerSoundCloud.7661a6b0.chunk.js.map",
@@ -43,7 +43,7 @@
     "453.043a3abf.chunk.js.map": "/love-app/static/js/453.043a3abf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d2a8b3c.css",
+    "static/css/main.810bca12.css",
     "static/js/main.f4ce8ee0.js"
   ]
 }
