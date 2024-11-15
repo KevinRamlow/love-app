@@ -3,7 +3,7 @@ import Poems from './components/pages/poems/poems';
 import Musics from './components/pages/musics/musics';
 import Stories from './components/pages/stories/stories';
 import Declaration from './components/pages/declaration/declaration';
-import FooterBar from './components/FooterBar';
+import FooterBar from './components/footbar/FooterBar';
 
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';

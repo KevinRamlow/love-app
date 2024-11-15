@@ -1,3 +1,4 @@
+
 function Stories() {
   return (
     <div className='container'>
@@ -12,7 +13,7 @@ function Stories() {
       </p>
 
       <hr className='divider' />
-    </div>
+    </div>  
   );
 }
 

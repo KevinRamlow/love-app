@@ -9,12 +9,6 @@
   box-sizing: border-box;
 }
 
-.divider {
-  width: 80%;
-  border-top: 1px solid #2C2C2C;
-  margin: 1rem 0;
-}
-
 .button-column {
   display: flex;
   flex-direction: column;

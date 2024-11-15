@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import Introduction from '../../Introduction';
 import './home.css';
 
 function Home() {
@@ -15,17 +15,12 @@ function Home() {
 
   return (
     <div className='container'>
-      <p className='title'>Love App</p>
-
-      <hr className='divider' />
-
-      <p className='introduction'>
-        Amor, nesses dois anos ao seu lado, meu coração se encheu de alegria e felicidade a cada dia. 
-        Você torna minha vida mais doce e especial. Eu só quero continuar ao seu lado, compartilhando muitos
-        outros momentos incríveis. Feliz dois anos de nós minha princesa!
-      </p>
-
-      <hr className='divider' />
+      <Introduction 
+        title="Love App" 
+        text="Amor, nesses dois anos ao seu lado, meu coração se encheu de alegria e felicidade a cada dia. 
+              Você torna minha vida mais doce e especial. Eu só quero continuar ao seu lado, compartilhando muitos
+              outros momentos incríveis. Feliz dois anos de nós minha princesa!"
+      />
       
       <div className='button-column'>
         {['Histórias', 'Poemas', 'Músicas', 'Declaração'].map((text, index) => (

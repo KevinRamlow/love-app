@@ -3,11 +3,11 @@ import { useNavigate } from 'react-router-dom';
 import './footerBar.css';
 
 const images = {
-  home: require('../img/footBarImages/home.png'),
-  instagram: require('../img/footBarImages/instagram.png'),
-  gitHub: require('../img/footBarImages/gitHub.png'),
-  linkedin: require('../img/footBarImages/linkedin.png'),
-  portfolio: require('../img/footBarImages/portfolio.png')
+  home: require('../../img/footBarImages/home.png'),
+  instagram: require('../../img/footBarImages/instagram.png'),
+  gitHub: require('../../img/footBarImages/gitHub.png'),
+  linkedin: require('../../img/footBarImages/linkedin.png'),
+  portfolio: require('../../img/footBarImages/portfolio.png')
 };
 
 function FooterBar() {
