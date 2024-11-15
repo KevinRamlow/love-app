@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/love-app/static/css/main.28ecde2b.css",
-    "main.js": "/love-app/static/js/main.008d03ba.js",
+    "main.css": "/love-app/static/css/main.6a7be8cd.css",
+    "main.js": "/love-app/static/js/main.e8181265.js",
     "static/js/453.61fefbf9.chunk.js": "/love-app/static/js/453.61fefbf9.chunk.js",
+    "static/media/image.png": "/love-app/static/media/image.9b0236ceef11251e69ae.png",
+    "static/media/image2.png": "/love-app/static/media/image2.9b0236ceef11251e69ae.png",
+    "static/media/image3.png": "/love-app/static/media/image3.9b0236ceef11251e69ae.png",
+    "static/media/image4.png": "/love-app/static/media/image4.9b0236ceef11251e69ae.png",
     "index.html": "/love-app/index.html",
-    "main.28ecde2b.css.map": "/love-app/static/css/main.28ecde2b.css.map",
-    "main.008d03ba.js.map": "/love-app/static/js/main.008d03ba.js.map",
+    "main.6a7be8cd.css.map": "/love-app/static/css/main.6a7be8cd.css.map",
+    "main.e8181265.js.map": "/love-app/static/js/main.e8181265.js.map",
     "453.61fefbf9.chunk.js.map": "/love-app/static/js/453.61fefbf9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.28ecde2b.css",
-    "static/js/main.008d03ba.js"
+    "static/css/main.6a7be8cd.css",
+    "static/js/main.e8181265.js"
   ]
 }
