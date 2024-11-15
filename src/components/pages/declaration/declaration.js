@@ -15,7 +15,7 @@ function Declaration() {
       <ReactPlayer 
         url='https://www.youtube.com/watch?v=dQw4w9WgXcQ' 
         controls 
-        width='100%'
+        width='90%'
         height='360px'
       />
     </div>

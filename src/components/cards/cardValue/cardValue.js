@@ -9,7 +9,7 @@ function CardValue() {
   return (
     <div className="card-introduction">
       <p className='card-title'>{title}</p>
-      <hr className='card-divider' />
+      <hr className='divider' />
       <p className='card-text' dangerouslySetInnerHTML={{ __html: text }}></p>
     </div>
   );
